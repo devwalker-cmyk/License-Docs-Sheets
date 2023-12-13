@@ -25,3 +25,8 @@ class InvalidDateFormat(Exception):
 class LicenseKeyNotActive(Exception):
     """Raised when the license key is not active"""
     pass
+
+
+class SheetNotFound(Exception):
+    """Raised when the sheet is not found in the database"""
+    pass
