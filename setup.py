@@ -11,7 +11,6 @@ setup(
     author='devwalker-cmyk',
     keywords=['License', 'Google Sheets', 'License Manager'],
     url='https://github.com/devwalker-cmyk/License-Docs-Sheets',
-    long_description=read('README.md'),
     license='MIT',
     install_requires=[
         'requests',
